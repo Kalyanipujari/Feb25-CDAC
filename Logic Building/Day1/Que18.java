@@ -1,4 +1,4 @@
-class Que17
+class Que18
 {
 	public static void main(String args[])
 	{
