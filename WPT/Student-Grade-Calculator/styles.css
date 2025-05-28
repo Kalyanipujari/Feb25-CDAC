@@ -1,0 +1,95 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #e3f2fd, #ffffff);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+
+div {
+    background-color: #ffffff;
+    padding: 30px 35px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    max-width: 50vw;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 25px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+form label {
+    color: #333;
+    font-weight: 500;
+    margin-bottom: 3px;
+}
+
+form input[type="text"],
+form input[type="number"] {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    width: 80%;
+    transition: border-color 0.3s;
+}
+
+form input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+form button {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button[type="button"] {
+    background-color: #28a745;
+    color: #fff;
+}
+
+form button[type="reset"] {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+form button:hover {
+    opacity: 0.92;
+}
+
+#para {
+    margin-top: 20px;
+    padding: 14px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 8px;
+    min-height: 20px;
+    transition: all 0.3s ease-in-out;
+}
